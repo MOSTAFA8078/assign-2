@@ -228,14 +228,15 @@ nav li a {
 }
 
 #button2 {
+
     text-decoration: none;
-    background-color: red;
+    background-color: crimson;
     color: white;
     border-radius: 5px;
     font-size: 20px;
-    padding: 10px 30px;
-    margin-left: 800px;
+    padding: 20px 30px;
     display: none;
+    margin-left: 20em;
 
 }
 
@@ -277,9 +278,9 @@ footer h1 {
 
 }
 
-.icon-div {
-    margin-left: 45em;
-
+.icon-pack {
+    margin: auto;
+    width: 20%;
 }
 
 
@@ -311,7 +312,7 @@ footer h1 {
         flex-direction: column;
     }
 
-    .left-content {}
+
 
     nav ul li {
         width: 2%;
@@ -350,11 +351,7 @@ footer h1 {
 
     }
 
-    #button2 {
-        display: block;
-        margin-left: 60px;
-        padding-left: 200px;
-    }
+
 
     footer {
         height: 1050px;
@@ -396,4 +393,48 @@ footer h1 {
 
 /* tablet devices ipad pro */
 
-@media only screen and (mini-width:688px) and(max-width:992px) {}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .banner {}
+
+    .text {
+        font-size: 25px;
+        padding-top: 60px;
+    }
+
+    #player1 {
+        width: 400px;
+        height: 600px;
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+
+    .middle {
+        flex-direction: column;
+    }
+
+    .left {
+
+        margin-left: 300px;
+    }
+
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 100px;
+    }
+
+    #button2 {
+        display: inline-block;
+    }
+
+
+    .icon-div {
+        margin-left: 30em;
+    }
+
+
+
+
+}
