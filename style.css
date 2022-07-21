@@ -204,7 +204,7 @@ nav li a {
     background-color: red;
     color: aliceblue;
     font-size: 1.5em;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 10px;
 }
 
@@ -213,7 +213,7 @@ nav li a {
     color: black;
     border-radius: 10px;
     font-size: 1.5em;
-    padding: 10px 60px;
+    padding: 10px 50px;
     text-align: center;
 
 }
@@ -223,7 +223,7 @@ nav li a {
     color: black;
     border-radius: 10px;
     font-size: 1.5em;
-    padding: 10px 90px;
+    padding: 8px 90px;
     text-align: center;
 }
 
@@ -239,7 +239,7 @@ nav li a {
 
 }
 
-/* style end for upcoming page */
+
 
 footer {
     height: 400px;
@@ -277,6 +277,11 @@ footer h1 {
 
 }
 
+.icon-div {
+    margin-left: 45em;
+
+}
+
 
 
 /* media quaries */
@@ -284,6 +289,7 @@ footer h1 {
 
 /* mobile devices */
 @media only screen and (max-width:688px) {
+
 
     .banner {
         flex-direction: column;
@@ -305,11 +311,32 @@ footer h1 {
         flex-direction: column;
     }
 
-    .nav ul {
+    .left-content {}
 
-        flex-direction: row;
-        width: 100;
-        margin: 9px 8px;
+    nav ul li {
+        width: 2%;
+        display: inline;
+        font-size: 6px;
+    }
+
+    .left {
+        background-color: white;
+
+    }
+
+    .same {
+        border: .5px solid black;
+        padding: 20px 10px;
+    }
+
+    .same-1 {
+        border: .5px solid black;
+        padding: 20px 30px;
+    }
+
+    #blog {
+        border: .5px solid black;
+        padding: 20px 40px;
     }
 
     .container {
@@ -330,7 +357,7 @@ footer h1 {
     }
 
     footer {
-        height: 800px;
+        height: 1050px;
         width: 100%;
 
         padding-left: 220px;
@@ -342,31 +369,31 @@ footer h1 {
     }
 
 
+    .icon-div {
+        margin-right: 150px;
+        flex-direction: row;
+    }
 
+    /* upcoming page */
+    #upcoming {
+        padding: 10px 10px;
 
+    }
 
+    .all-1 {
+        padding: 10px 5px;
+    }
 
-
-
-
-
-}
-
-/* tablet devices */
-@media only screen and (mini-width:688px) and(max-width:992px) {
-
-    .text {
-        font-size: 10px;
-        width: 0%;
+    .blog-1 {
+        padding: 10px 20px;
     }
 
 
 
 
 
-
-
-
-
-
 }
+
+/* tablet devices ipad pro */
+
+@media only screen and (mini-width:688px) and(max-width:992px) {}
